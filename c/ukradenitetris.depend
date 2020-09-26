@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1601064979 source:c:\users\laptop\documents\codeblocks\ukradenitetris\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<conio.h>
+	<stdbool.h>
+	<time.h>
+	<sys/time.h>
+	"blocklist.h"
+	"bags.h"
+	"rotate.h"
+	"printing.h"
+	"help.h"
+	"position.h"
+	"tspin.h"
+	"kicktable.h"
+
+1600959605 c:\users\laptop\documents\codeblocks\ukradenitetris\blocklist.h
+
+1600909199 c:\users\laptop\documents\codeblocks\ukradenitetris\bags.h
+
+1601064819 c:\users\laptop\documents\codeblocks\ukradenitetris\rotate.h
+	"help.h"
+	"printing.h"
+	"position.h"
+	"tspin.h"
+	"kicktable.h"
+	"moveblock.h"
+
+1600910501 c:\users\laptop\documents\codeblocks\ukradenitetris\help.h
+	"position.h"
+	"printing.h"
+
+1601037553 c:\users\laptop\documents\codeblocks\ukradenitetris\position.h
+
+1600910676 c:\users\laptop\documents\codeblocks\ukradenitetris\printing.h
+
+1600984008 c:\users\laptop\documents\codeblocks\ukradenitetris\tspin.h
+	"position.h"
+	<stdio.h>
+
+1601022256 c:\users\laptop\documents\codeblocks\ukradenitetris\kicktable.h
+
+1601064796 c:\users\laptop\documents\codeblocks\ukradenitetris\moveblock.h
+

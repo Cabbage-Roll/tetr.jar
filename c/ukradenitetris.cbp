@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ukradenitetris" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ukradenitetris" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libwinmm.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ukradenitetris" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="bags.h" />
+		<Unit filename="blocklist.h" />
+		<Unit filename="help.h" />
+		<Unit filename="kicktable.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="moveblock.h" />
+		<Unit filename="position.h" />
+		<Unit filename="printing.h" />
+		<Unit filename="rotate.h" />
+		<Unit filename="tspin.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
